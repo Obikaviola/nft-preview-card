@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+
+/* BODY SECTION =========================================== */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    padding: 0;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.white-text {
+    color: hsl(0, 0%, 100%);
+}
+
+.cyan {
+    color: hsl(178, 100%, 50%);
+}
+
+/* CONTAINER ================================================ */
+.container {
+    max-width: 360px;
+    margin: 2rem auto;
+    padding: 2rem 2rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 2rem;
+    padding-bottom: 1rem;
+}
+
+/* HEADER SECTION ================================================ */
+header {
+    margin: 0 auto;
+}
+
+.card {
+    width: 18.5rem;
+    height: 18.5rem;
+    position: relative;
+    border-radius: 1rem;
+    background: hsl(178, 100%, 50%);
+}
+
+.image-equilibrium {
+    width: 18.5rem;
+    border-radius: 0.9rem;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image-equilibrium:hover {
+    opacity: 0.5;
+}
+
+.image-view {
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    display: none;
+}
+
+.card:hover .image-view {
+    display: inline;
+    cursor: pointer;
+}
+
+/* MAIN SECTION ========================================== */
+
+/* HEADING ========================================= */
+
+h1 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+main>p {
+    line-height: 2rem;
+}
+
+/* INFO SECTION ========================================== */
+
+.info {
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-icon {
+    padding-top: 0.1rem;
+}
+
+.time-left {
+    padding-top: 0.1rem;
+}
+
+.eth, .time {
+    padding-left: 1rem;
+}
+
+/* CREATOR SECTION ===================================== */
+.creator {
+    border-top: 2px solid hsl(215, 32%, 27%);
+    padding-top: 1rem;
+    display: flex;
+}
+
+.image-avatar {
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 100%);
+    margin-right: 1rem;
+}
+
+.creator-name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.creator>p {
+    margin-top: 0.5rem;
+}
+
+/* ATTRIBUTION SECTION ==================================== */
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
